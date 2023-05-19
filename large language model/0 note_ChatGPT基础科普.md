@@ -56,5 +56,7 @@ probs = nn.Softmax(dim=1)(logits) # 4×1000，每一行概率和为1
 - 微调模型时代：Transformer这个架构基于Seq2Seq，可以同时处理NLU和NLG任务，而且这种Self Attention机制的特征提取能力很强。这就使得NLP取得了阶段性的突破，深度学习开始进入了微调模型时代。大概的做法就是拿着一个开源的预训练模型，然后在自己的数据上微调一下，让它能够搞定特定的任务。这个开源的预训练模型往往就是个语言模型，从大量数据语料上，使用我们前面讲的语言模型的训练方法训练而来。NLU领域的第一个工作是Google的BERT，相信不少人即便不是这个行业的也大概听过。BERT就是用了Transformer的Encoder架构，有12个Block（看上面那个图，这每一个Block也可以叫一层），1亿多参数，它不预测下一个Token，而是随机把15%的Token盖住，然后利用其他没盖住的Token来预测盖住的Token。其实和根据上文预测下一个Token是类似的，不同的是可以利用下文信息。NLG领域的第一个工作是OpenAI的GPT，用的是Transformer的Decoder架构，参数和BERT差不多。它们都发表于2018年，然后分别走上了两条不同的路。
 
 ### GPT
-
+- Generative pre-trained transformer GPT: 生成式与训练transformer。生成式的意思是类似语言模型那样，token by token生成文本，即 decoder。预训练也提到过了，就是在大量语料上训练的语言模型。gpt模型从1到4，一共经历了5个版本，中间有个chatgpt是3.5版本。
+- GPT1: 和bert一样，走的是下游任务微调套路，也就是固定预训练模型不动，然后在不通下游任务上微调一个模型
+- 1[0 GPT1基本架构]（）
 
