@@ -20,4 +20,4 @@ W·X = Y  # W自然可以是 d×N 维的矩阵
 ### RNN
 - 深度学习初期 最著名的语言模型Recurrent Neural Network RNN: RNN模型与其他神经网络不同的地方在于，它的节点之间存在循环链接，这使得它能够记住之前的信息，并将它们应用于当前的输入。这种记忆能力使得 RNN 在处理时间序列数据时特别有用，例如预测未来的时间序列数据、自然语言处理等 
 
-- 
+![0 RNN模型参数介绍](https://github.com/tinghe14/NLP-Papers/blob/main/large%20language%20model/0%20RNN%E6%A8%A1%E5%9E%8B%E5%8F%82%E6%95%B0%E4%BB%8B%E7%BB%8D.png)
