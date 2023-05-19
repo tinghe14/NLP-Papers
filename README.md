@@ -6,7 +6,7 @@ This is a repository for organizing articles related to NER and RE. Most papers 
 
 # Large Language Model
 ## 2023
-1. [ChatGPT 基础科普：知其一点所以然](https://yam.gift/2023/04/15/NLP/2023-04-15-ChatGPT-Introduction/): [note]()
+1. [ChatGPT 基础科普：知其一点所以然](https://yam.gift/2023/04/15/NLP/2023-04-15-ChatGPT-Introduction/): [note](https://github.com/tinghe14/NER-RE-Papers/blob/main/large%20language%20model/note_ChatGPT%E5%9F%BA%E7%A1%80%E7%A7%91%E6%99%AE.md)
 
 # NER
 
