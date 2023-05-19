@@ -46,6 +46,15 @@ probs = nn.Softmax(dim=1)(logits) # 4×1000，每一行概率和为1
 - encoder-decoder介绍：Transformer是一种Encoder-Decoder架构，简单来说就是先把输入映射到Encoder，这里大家可以把Encoder先想象成上面介绍的RNN，Decoder也可以想象成RNN。这样，左边负责编码，右边则负责解码。这里面不同的是，左边因为我们是知道数据的，所以建模时可以同时利用当前Token的历史Token和未来（前面的）Token；但解码时，因为是一个Token一个Token输出来的，所以只能根据历史Token以及Encoder的Token表示进行建模，而不能利用未来的Token。（这篇博客原文提供了一个很好的gif展示）
 - 如何表示整句话：encoder和Decoder可以采用RNN，最终就是Encoder所有Token最终输出一个向量，作为整句话的表示。说到这里，整句话又怎么表示呢？刚刚上面我们也提到过，如果RNN这种结构，可以把最后一个Token的输出作为整个句子的表示。当然了，很符合直觉地，你也可以取每个Token向量的平均值，或第一个和最后一个的平均值，或后面N个的平均值。这些都可以，问题不大，不过一般取平均的情况比较多，效果要好一些。除了平均值，也可以求和、取最大值等，我们就不多深入讨论了。
 - gif中decoder的过程：其实它在生成每一个Token时都用到了Encoder每一个Token的信息，以及它已经生成的Token的信息。前面这种关注Encoder中Token的信息的机制就是Attention（注意力机制）。直观点解释，当生成Knowledge时，「知识」两个字会被赋予更多权重，其他也是类似。
-- transformer的结构
+- 
+![0 transformer的内部结构](https://github.com/tinghe14/NLP-Papers/blob/7cb0b969fcf684dc393117391888c8f15ff25989/large%20language%20model/0%20transformer%E7%9A%84%E5%86%85%E9%83%A8%E7%BB%93%E6%9E%84.png)
+- 图：左边是encoder的一个block(一共n个)，右边是decoder的一个block（一共n个）。简单起见，可以假设n=1，那左边的结构就是一个encoder,右边也是一个decoder.可以把它想象成rnn，这样有帮助从宏观角度把握。之后，回到现实，transformer用到的东西和rnn并没有关系，通过上图也可以看出来，它主要用了两个模块：multi-head attention和feed forward
+- multi-head attention: 之前gnmt(google neural machine translation)就有attention, 它是decoder中的token和encoder中每一个token的重要性权重。multi-head attention中用到的叫self attention和刚刚说的attention类似，只不过它是自己的每一个token和自己的每一个token的重要性权重。简单来说，就是一句话到底哪里重要。这个机制是很多模型的精髓，无论是chatgpt还是其他非文本的模型，几乎都用到了它，统一了江湖。multi-head的意思：把刚刚这种自己注意自己重复multi次，每个注意到的信息不一样，这样就可以捕获到更多的信息。比如我们前面提过的这句话：「我喜欢在深夜的星空下伴随着月亮轻轻地想你」，有的Head「我」注意到「喜欢」，有的Head「我」注意到「深夜」，有的Head「我」注意到「想你」……这样看起来是不是更加Make Sense。对于Feed Forward，大家可以把它当做「记忆层」，大模型的大部分知识都存在这里面，Multi-Head Attention则根据不同权重的注意提取知识。
+- 大部分nlp任务并不是seq2seq的：最常见的主要包括这么几种：句子级别分类、Token级别分类（也叫序列标注）、相似度匹配和生成；而前三种应用最为广泛。这时候Encoder和Decoder就可以拆开用了。左边的Encoder在把句子表示成一个向量时，可以利用上下文信息，也就是说，可以把它看作是双向的；右边的Decoder不能看到未来的Token，一般只利用上文，是单向的。虽然它们都可以用来完成刚刚提到的几个任务，但从效果上来说，Encoder更加适合非生成类任务，Decoder更加适合生成类任务。在NLP领域，一般也会把它们分别叫做NLU（Natural Language Understanding，自然语言理解）任务和NLG（Natural Language Generation，自然语言生成）任务。
+- NLU任务: 句子级别分类是给定一个句子，输出一个类别。因为句子可以表示为一个向量，经过张量运算，自然可以映射到每个类的概率分布。这和前面语言模型提到过的搞法没有本质上的区别，只不过语言模型的类别是整个词表大小，而分类的类别是看具体任务的，有二分类、多分类、多标签分类等等。Token级别的分类是给定一个句子，要给其中每个Token输出一个类别。这个和语言模型就更像了，只不过把下一个Token换成是对应的类别，比如命名实体识别就是把句子中的实体（人名、地名、作品等你关注的词，一般是名词）给提取出来。它们的类别一般是类似，如果以人名（PER）举例的话，类似这样：B-PER表示开始、I-PER表示中间。举个例子：「刘亦菲好看」，此时，Token是字，对应的类别为「B-PER、I-PER、I-PER、O、O」，O表示Other。注意，对于分类任务，类别我们一般也叫它标签。相似匹配任务一般是给定两个句子，输出是否相似，其实也可以看作是特殊的分类问题。
+- NLG任务：除了生成外，常见的任务还有文本摘要、机器翻译、改写纠错等。这里Seq2Seq的结构就比较常见了，体现了一种先理解再输出的感觉。而纯生成类任务，比如写诗、写歌词、写小说几乎都是Decoder结构。这一类任务稍微麻烦一些的是自动评测，除生成的其他任务还好，一般都会提供参考答案（reference），可以看模型输出的和参考之间重叠程度或相似程度。但纯生成任务就有点麻烦，这个好不好有时候其实很难衡量。不过针对有具体目标的（如任务机器人对话生成），还是可以设计一些是否完成任务、达到目标之类的评测方法。但对于没有具体目标的（比如闲聊），这评测起来就见仁见智了，很多时候还是靠人工过一遍。
+- 微调模型时代：Transformer这个架构基于Seq2Seq，可以同时处理NLU和NLG任务，而且这种Self Attention机制的特征提取能力很强。这就使得NLP取得了阶段性的突破，深度学习开始进入了微调模型时代。大概的做法就是拿着一个开源的预训练模型，然后在自己的数据上微调一下，让它能够搞定特定的任务。这个开源的预训练模型往往就是个语言模型，从大量数据语料上，使用我们前面讲的语言模型的训练方法训练而来。NLU领域的第一个工作是Google的BERT，相信不少人即便不是这个行业的也大概听过。BERT就是用了Transformer的Encoder架构，有12个Block（看上面那个图，这每一个Block也可以叫一层），1亿多参数，它不预测下一个Token，而是随机把15%的Token盖住，然后利用其他没盖住的Token来预测盖住的Token。其实和根据上文预测下一个Token是类似的，不同的是可以利用下文信息。NLG领域的第一个工作是OpenAI的GPT，用的是Transformer的Decoder架构，参数和BERT差不多。它们都发表于2018年，然后分别走上了两条不同的路。
+
+### GPT
 
 
