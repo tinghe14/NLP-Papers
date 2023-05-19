@@ -58,5 +58,9 @@ probs = nn.Softmax(dim=1)(logits) # 4×1000，每一行概率和为1
 ### GPT
 - Generative pre-trained transformer GPT: 生成式与训练transformer。生成式的意思是类似语言模型那样，token by token生成文本，即 decoder。预训练也提到过了，就是在大量语料上训练的语言模型。gpt模型从1到4，一共经历了5个版本，中间有个chatgpt是3.5版本。
 - GPT1: 和bert一样，走的是下游任务微调套路，也就是固定预训练模型不动，然后在不通下游任务上微调一个模型
-- 1[0 GPT1基本架构]（）
+- 1[0 GPT1基本架构]（https://github.com/tinghe14/NLP-Papers/blob/23c637c3ad02035c650a4510d2fbed94ee8ca0aa/large%20language%20model/0%20GPT1%E5%9F%BA%E6%9C%AC%E6%9E%B6%E6%9E%84.png）
+- gpt1的架构：左边已经介绍过了，用的就是transformer的架构（gpt用的是decoder）。重点在右边：针对不同任务输入，都拼接成文本序列，然后丢给transformer decoder再通过一个linear+softmax输出结构。linear是一种最基础的网络结构，softmax前面介绍过，主要用来把输出映射到概率分布（和为1）。这种拼接输入的方法日后在当时那个大模型时代非常流行的，紧跟其后的BERT也是类似的方式。这样统一的处理方法能够减少不同任务对模型的改动。反正不管什么任务，都想方设法搞成一个序列就行。还有两点有意思，仪式预训练层数和任务表现的关系，第二个是训练参数数量和模型性能的关系。从中可以得到结论：第一，预训练模型中的每一层都包含用于解决目标任务的有用功能，说明多层有更多能力；第二，随着参数的增加，zero-shot获得更好的性能。简单总结来看就是，模型打了不仅能学到更多的知识，有助于解决下游任务，还表现出了zero-shot的能力
+
+
+
 
