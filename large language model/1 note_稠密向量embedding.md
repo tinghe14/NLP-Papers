@@ -10,4 +10,4 @@
 ### 相关API
 - openai LMAS embedding API
 - 语意相似度：在自然语言处理领域，我们一般使用cosine相似度作为语义相似度的度量，评估两个向量在语义空间上的分布情况。
-- 
+- ![cosine相似度](https://github.com/tinghe14/NLP-Papers/blob/0cead1c6b00a6f190db8e07563aa3e1d1186f914/large%20language%20model/1%20cosine%E7%9B%B8%E4%BC%BC%E5%BA%A6.png)
