@@ -11,3 +11,10 @@
 - openai LMAS embedding API
 - 语意相似度：在自然语言处理领域，我们一般使用cosine相似度作为语义相似度的度量，评估两个向量在语义空间上的分布情况。
 - ![cosine相似度](https://github.com/tinghe14/NLP-Papers/blob/0cead1c6b00a6f190db8e07563aa3e1d1186f914/large%20language%20model/1%20cosine%E7%9B%B8%E4%BC%BC%E5%BA%A6.png)
+- ![chatgpt的回答](https://github.com/tinghe14/NLP-Papers/blob/2d63b74084c56b2e21e174fc986c6882691d072f/large%20language%20model/1%20chatgpt%E7%9B%B8%E4%BC%BC%E5%BA%A6.png)
+
+### embedding的应用
+- 有读者可能会疑惑，既然有了这么牛逼Plus的ChatGPT了，为什么还要介绍Embedding这种看起来好像是「低级货」的技术呢？这里主要有两个原因：有些问题使用Embedding解决（或其他非ChatGPT的方式）会更加合理。通俗来说就是「杀鸡焉用牛刀」；ChatGPT性能方面不是特别友好，毕竟是一个Token一个Token吐出来的。
+- 使用Embedding的应用大多跟语义相关，我们这里介绍与此相关的几个经典任务以及衍生的应用
+
+### QA
