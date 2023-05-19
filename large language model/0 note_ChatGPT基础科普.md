@@ -19,5 +19,33 @@ W·X = Y  # W自然可以是 d×N 维的矩阵
 
 ### RNN
 - 深度学习初期 最著名的语言模型Recurrent Neural Network RNN: RNN模型与其他神经网络不同的地方在于，它的节点之间存在循环链接，这使得它能够记住之前的信息，并将它们应用于当前的输入。这种记忆能力使得 RNN 在处理时间序列数据时特别有用，例如预测未来的时间序列数据、自然语言处理等 
-
+- 
 ![0 RNN模型参数介绍](https://github.com/tinghe14/NLP-Papers/blob/main/large%20language%20model/0%20RNN%E6%A8%A1%E5%9E%8B%E5%8F%82%E6%95%B0%E4%BB%8B%E7%BB%8D.png)
+- 图：第一行是x， 第二行是y，sos： start of sentence。注意，上面的h并不是那个输出的概率，而是hidden state, 如果需要概率，可以将h再做一个张量运算，归一化到整个词表即可
+~~~
+import torch.nn as nn
+rnn = nn.RNN(32, 64)
+input = torch.randn(4, 32) # 输入是一个4*32的向量=4个token,维度d=32
+h0 = torch.randn(1, 64) # h0就是初始化的输出=output4个里面的第一个
+output, hn  = rnn(input, h0)
+# output的四个64维的向量就分别表示4个输出
+# hn就是最后一个token的输出，也可以看成整个句子的表示
+output.shape, hn.shape #(torch.Size([4, 64]), torch.Size([1, 64]))
+
+# 如果要输出词的概率，需要先弄到词表大小，再归一化
+wo = torch.randn(64, 1000) # 假设词表大小N=1000
+logits = output @ wo  # 4×1000
+# probs每一行就是词表大小的概率分布=这个token到词表的每一个单词的概率
+probs = nn.Softmax(dim=1)(logits) # 4×1000，每一行概率和为1
+~~~
+- 图：因为我们知道接下来的token是什么，即y，那这里输出的最大概率的那个token如果正好是这个token,说明预测对了，参数就不用怎么调整；反之，模型就会调整前面的参数（上面的RNN, h0, input的参数和下面的w0）。你可能会疑惑为啥input也是参数，其实上面的input我们偷了懒，本来的参数是1000×32的大向量，4个是那四个Token对应位置的那一行向量。这个1000×32的向量其实就是词向量（每个词一行），开始时随机初始化，然后通过训练调整参数。训练完成后，这些参数就不变了，然后就可以和上面用同样的步骤做预测了，也就是给定一个token预测下一个token。重点需要了解每个token怎么表示，怎么训练和预测出来的。
+
+### Transformer
+- trasformer这种架构从更普遍的角度来看，是seq2seq架构：序列到序列模型，也就是输入是一个文本序列，输出是另一个文本序列
+- 重要性介绍：接下来出场的是Transformer，一个刚开始在NLP领域，后来横跨到语音和图像领域，并最终统一几乎所有模态的架构。这是Google2017年发的一篇论文，标题叫《Attention Is All You Need》，其最重要的核心就是提出来的Self-Attention机制，中文也叫自注意力。简单来说，就是在语言模型建模过程中，把注意力放在那些重要的Token上。
+- encoder-decoder介绍：Transformer是一种Encoder-Decoder架构，简单来说就是先把输入映射到Encoder，这里大家可以把Encoder先想象成上面介绍的RNN，Decoder也可以想象成RNN。这样，左边负责编码，右边则负责解码。这里面不同的是，左边因为我们是知道数据的，所以建模时可以同时利用当前Token的历史Token和未来（前面的）Token；但解码时，因为是一个Token一个Token输出来的，所以只能根据历史Token以及Encoder的Token表示进行建模，而不能利用未来的Token。（这篇博客原文提供了一个很好的gif展示）
+- 如何表示整句话：encoder和Decoder可以采用RNN，最终就是Encoder所有Token最终输出一个向量，作为整句话的表示。说到这里，整句话又怎么表示呢？刚刚上面我们也提到过，如果RNN这种结构，可以把最后一个Token的输出作为整个句子的表示。当然了，很符合直觉地，你也可以取每个Token向量的平均值，或第一个和最后一个的平均值，或后面N个的平均值。这些都可以，问题不大，不过一般取平均的情况比较多，效果要好一些。除了平均值，也可以求和、取最大值等，我们就不多深入讨论了。
+- gif中decoder的过程：其实它在生成每一个Token时都用到了Encoder每一个Token的信息，以及它已经生成的Token的信息。前面这种关注Encoder中Token的信息的机制就是Attention（注意力机制）。直观点解释，当生成Knowledge时，「知识」两个字会被赋予更多权重，其他也是类似。
+- transformer的结构
+
+
