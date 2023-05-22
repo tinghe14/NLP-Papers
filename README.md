@@ -15,6 +15,11 @@ This is a repository for organizing articles related to NLP or medical NLP. Most
 4. [Self-Instruct]()
 5. [Standford Alpaca]()
 6. [SLiC-HF: Sequence Likelihood Calibration with Human Feedback]():replace RL techniques
+## Previous Years
+1. [GPT，GPT-2，GPT-3 论文精读【论文精读】](https://www.bilibili.com/video/BV1AF411b7xQ/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
+2. [InstructGPT 论文精读【论文精读·48】](https://www.bilibili.com/video/BV1hd4y187CR/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
+3. [GPT-4论文精读【论文精读·53】](https://www.bilibili.com/video/BV1vM4y1U7b5/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
+4. 
 ## Other
 1. DeepLearning.AI ChatGPT Prompt Enginnering for Developers:
     - [note]()
