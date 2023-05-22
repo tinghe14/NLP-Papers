@@ -53,28 +53,28 @@ This is a repository for organizing articles related to NLP or medical NLP. Most
 # Transformer - Encoder Part
 ## 2018
 1. Paper - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
-        - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02#:~:text=and%20layer%20norm.-,BERT,-(Google%2C%202018)%3A)
+    - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
 
 # Transformer 
 ## 2017
 1. Paper - [Attention is all your need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf): Milestone of Transformer architecture
-        - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02#:~:text=calibrated%20query%20inventory-,Transformer,-(Google%2C%202017%2C%20NIPS)
+    - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
 
 # Embedding
 ## 2015
 1. Paper - [Improving Distribution Similarity with Lessons Learned from Word Embeddings](https://aclanthology.org/Q15-1016/): evaluation in word embedding
-        - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02#:~:text=Code%20Snippet%3A-,Evaluation%20in%20word%20embedding%20(1/2),-(TACL%2C%202015)%3A)
+    - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
 2. Paper - [Evaluation methods for unsupervised word embedding](https://aclanthology.org/D15-1036/)
-        - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02#:~:text=many%20negative%20samples-,Evaluation%20in%20word%20embedding%20(2/2),-(EMNLP%2C%202015)%3A)
+    - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
 
 ## 2014
 1. Paper - [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/pubs/glove.pdf)
-        - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02#:~:text=negative%20sampling-,GloVe,-(Stanford%2C%202014%2C%20EMNLP)
+    - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
 ## 2013
 1. Paper - [Efficient Estimation of Word Representations in Vector Space](https://arxiv.org/pdf/1301.3781.pdf)
-        - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02#:~:text=for%20Language%20Understanding-,Word2vec,-(Google%2C%202013)%3A)
+    - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
 2. Paper - [Distributed Representations of Words and Phrases and their Compositionality](https://proceedings.neurips.cc/paper/2013/file/9aa42b31882ec039965f3c4923ce901b-Paper.pdf): negative sampling techniques
-        - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02#:~:text=and%20text%20similarity-,Negative%20Sampling%20Technique,-(Google%2C%202013%2C%20NIPS)
+    - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
 
 
 # NER
