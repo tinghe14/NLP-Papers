@@ -34,13 +34,13 @@ This is a repository for organizing articles related to NLP or medical NLP. Most
 1. Paper - [A Survey on Model Compression and Acceleration for Pretrained Language Models]
 2. Blog - [How Cohere is accelerating language model training with Google Cloud TPUs]
 3. Blog in Chinese - [基于Amos优化器思想推导出来的一些“炼丹策略”](https://spaces.ac.cn/archives/9344)
-
 ## 2021
 1. Blog - [Hugging Face blog: How we sped up transformer inference 100x for Hugging Face API customers](https://huggingface.co/blog/accelerated-inference)
 ## Other
 1. Tutorial - [Transformers Math 101](https://eleutherai.notion.site/Transformers-Math-101-d2fcfc7a25d446388fde97821ad2412a)
 2. PyTorch Documentaiton - [Performance Tuning Guide](https://pytorch.org/tutorials/recipes/recipes/tuning_guide.html)
-3. Blog - 并行计算入门 不知道哪个好 要先挑选下：https://medium.com/nlplanet/two-minutes-nlp-leveraging-parallelisms-to-train-large-neural-networks-a7f31de06eac
+3. Blog - 并行计算入门 不知道哪个好 要先挑选下：-给自己发的微信
+    - https://medium.com/nlplanet/two-minutes-nlp-leveraging-parallelisms-to-train-large-neural-networks-a7f31de06eac
     - https://zhuanlan.zhihu.com/p/157884112 
     - http://giantpandacv.com/project/%E9%83%A8%E7%BD%B2%E4%BC%98%E5%8C%96/AI%20%E9%83%A8%E7%BD%B2%E5%8F%8A%E5%85%B6%E5%AE%83%E4%BC%98%E5%8C%96%E7%AE%97%E6%B3%95/%E5%B9%B6%E5%8F%91%E7%BC%96%E7%A8%8B/
 4. Blog in Chinese - [一文总结当下常用的大型 transformer 效率优化方案](https://zhuanlan.zhihu.com/p/623744798)
@@ -48,7 +48,10 @@ This is a repository for organizing articles related to NLP or medical NLP. Most
 6. Tool - [LightSeq, 支持Transformer全流程训练加速，最高加速3倍！字节跳动LightSeq上新)](https://www.jiqizhixin.com/articles/2021-06-24-13)
     - 类似的 http://giantpandacv.com/academic/%E7%AE%97%E6%B3%95%E7%A7%91%E6%99%AE/Transformer/LightSeq%20Transformer%E9%AB%98%E6%80%A7%E8%83%BD%E5%8A%A0%E9%80%9F%E5%BA%93/
 8. Tool - DeepSpeed
-9. GCP Documentation - [Cloud TPU性能指南]（https://cloud.google.com/tpu/docs/cloud-tpu-tools?hl=zh-cn）
+    - https://blog.csdn.net/CheatEngine_jaz/article/details/124629041
+    - 好像只支持huggingface和pytorch lighting 不知道是否支持pytorch https://www.deepspeed.ai/getting-started/
+    - 好像很麻烦 配置一堆问题 小红书群里说的
+10. GCP Documentation - [Cloud TPU性能指南]（https://cloud.google.com/tpu/docs/cloud-tpu-tools?hl=zh-cn）
 
 # Transformer - Encoder Part
 ## 2018
