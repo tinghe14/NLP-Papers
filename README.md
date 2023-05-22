@@ -2,13 +2,14 @@
 This is a repository for organizing articles related to NLP or medical NLP. Most papers are linked to my reading notes. Feel free to visit my medium homepage and contact me for discussion.
 
 # Table of Contents (ongoing)
-1. large language model
-2. acceleration NLP model
-3. transformer - encoder part
-4. transformer
-5. embedding
+1. large language model(#llm)
+2. acceleration NLP model(#accelerate)
+3. transformer - encoder part(#encoder)
+4. transformer(#transformer)
+5. embedding(#embedding)
 
 # Large Language Model
+<a id='llm'></a>
 ## 2023
 1. Blog in Chinese - [Introduction to ChatGPT/ChatGPT 基础科普：知其一点所以然](https://yam.gift/2023/04/15/NLP/2023-04-15-ChatGPT-Introduction/): introduce RNN to GPT series and share about RLHF
     - [note](https://github.com/tinghe14/NLP-Papers/blob/506df334b52d332b682b5bbf1c402119c8c57d3b/large%20language%20model/0%20note_ChatGPT%E5%9F%BA%E7%A1%80%E7%A7%91%E6%99%AE.md)
@@ -31,6 +32,7 @@ This is a repository for organizing articles related to NLP or medical NLP. Most
     - [note]()
 
 # Acceleration NLP Models
+<a id='accelerate'></a>
 ## 2023
 1. Blog in Chinese - [Google新作试图“复活”RNN：RNN能否再次辉煌？](https://spaces.ac.cn/archives/9554)
 2. Blog in Chinese - [Google新搜出的优化器Lion：效率与效果兼得的“训练狮”](https://spaces.ac.cn/archives/9473)
@@ -58,16 +60,19 @@ This is a repository for organizing articles related to NLP or medical NLP. Most
 10. GCP Documentation - [Cloud TPU性能指南]（https://cloud.google.com/tpu/docs/cloud-tpu-tools?hl=zh-cn）
 
 # Transformer - Encoder Part
+<a id='encoder'></a>
 ## 2018
 1. Paper - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
     - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
 
 # Transformer 
+<a id='transformer'></a>
 ## 2017
 1. Paper - [Attention is all your need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf): Milestone of Transformer architecture
     - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
 
 # Embedding
+<a id='embedding'></a>
 ## 2015
 1. Paper - [Improving Distribution Similarity with Lessons Learned from Word Embeddings](https://aclanthology.org/Q15-1016/): evaluation in word embedding
     - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
