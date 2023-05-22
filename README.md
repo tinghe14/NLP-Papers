@@ -22,7 +22,9 @@ This is a repository for organizing articles related to NLP. Most papers are lin
 6. [SLiC-HF: Sequence Likelihood Calibration with Human Feedback]():replace RL techniques
 7. [Stanford Webinar-GPT-3 & Beyond](https://www.youtube.com/results?search_query=stanford+webinar+-+gpt-3+%26+beyond)
 8. 8. Alignment instead of RL
-## Previous Years
+## 2020
+1. Paper - [Lanugage Models are Few-shot Learners](https://arxiv.org/abs/2005.14165): 'under pre-training plus fine-tuning paradigm, where models are designed to be large to absorb information during pre-training, but are then fine-tuned on very narrow task distributions. Some studies observe that larger models don't neccessarily generalize better out-of-distribution. This is evidence that suggests that the generalization achieved under this paradigm can be poor because the model is overly specific to the training distribution and doesn't generalize well outside it. Thus, the performance of fine-tuned models on specific benchmarks, even when it is nominally at human-level, may exaggerate actual performance on the underlying task.'
+## Others
 1. Video in Chinese - [GPT，GPT-2，GPT-3 论文精读【论文精读】](https://www.bilibili.com/video/BV1AF411b7xQ/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
 2. Video in Chinese - [InstructGPT 论文精读【论文精读·48】](https://www.bilibili.com/video/BV1hd4y187CR/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
 3. Video in Chinese- [GPT-4论文精读【论文精读·53】](https://www.bilibili.com/video/BV1vM4y1U7b5/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
