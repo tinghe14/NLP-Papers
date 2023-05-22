@@ -1,5 +1,5 @@
 # NLP-Papers
-This is a repository for organizing articles related to NLP or medical NLP. Most papers are linked to my reading notes. Feel free to visit my medium homepage and contact me for discussion.
+This is a repository for organizing articles related to NLP. Most papers are linked to my reading notes. Feel free to contact me for discussion via Linkedin.
 
 # Table of Contents (ongoing)
 1. [large language model](#llm)
