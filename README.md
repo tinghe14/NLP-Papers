@@ -2,7 +2,11 @@
 This is a repository for organizing articles related to NLP or medical NLP. Most papers are linked to my reading notes. Feel free to visit my medium homepage and contact me for discussion.
 
 # Table of Contents (ongoing)
-## 2023
+1. large language model
+2. acceleration NLP model
+3. transformer - encoder part
+4. transformer
+5. embedding
 
 # Large Language Model
 ## 2023
