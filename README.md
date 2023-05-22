@@ -16,6 +16,7 @@ This is a repository for organizing articles related to NLP or medical NLP. Most
 5. [Standford Alpaca]()
 6. [SLiC-HF: Sequence Likelihood Calibration with Human Feedback]():replace RL techniques
 7. [Stanford Webinar-GPT-3 & Beyond](https://www.youtube.com/results?search_query=stanford+webinar+-+gpt-3+%26+beyond)
+8. 8. Alignment instead of RL
 ## Previous Years
 1. Video in Chinese - [GPT，GPT-2，GPT-3 论文精读【论文精读】](https://www.bilibili.com/video/BV1AF411b7xQ/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
 2. Video in Chinese - [InstructGPT 论文精读【论文精读·48】](https://www.bilibili.com/video/BV1hd4y187CR/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
@@ -26,11 +27,15 @@ This is a repository for organizing articles related to NLP or medical NLP. Most
     - [note]()
 
 # Acceleration NLP Models
+## 2023
+1. Blog in Chinese - [Google新作试图“复活”RNN：RNN能否再次辉煌？](https://spaces.ac.cn/archives/9554)
+2. Blog in Chinese - [Google新搜出的优化器Lion：效率与效果兼得的“训练狮”](https://spaces.ac.cn/archives/9473)
 ## 2022
 1. Paper - [A Survey on Model Compression and Acceleration for Pretrained Language Models]
 2. Blog - [How Cohere is accelerating language model training with Google Cloud TPUs]
-3. Blog in Chinese - [FLASH：可能是近来最有意思的高效Transformer设计](https://spaces.ac.cn/archives/8934)
-4. Paper - [Transformer Quality in Linear Time]
+3. Blog in Chinese - [基于Amos优化器思想推导出来的一些“炼丹策略”](https://spaces.ac.cn/archives/9344)
+4. Blog in Chinese - [FLASH：可能是近来最有意思的高效Transformer设计](https://spaces.ac.cn/archives/8934)
+5. Paper - [Transformer Quality in Linear Time]
         - [note]:
         - [repo](https://github.com/lucidrains/FLASH-pytorch)
 ## 2021
