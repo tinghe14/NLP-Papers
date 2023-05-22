@@ -12,8 +12,9 @@ This is a repository for organizing articles related to NLP or medical NLP. Most
     - [note]()
 3. [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/pdf/2302.13971.pdf):open-sourced LLM for research community. The most benfit point to me is that I can now follow how researcher use LLaMA to fine tune specific task
     - [note](https://docs.google.com/presentation/d/1TLGVurmYcE_nqks2V1-i1n5Jnj2Z-AzZ6sQnqqiQ3gA/edit?usp=sharing)
-4. Self-Instruct
-5. Standford Alpaca
+4. [Self-Instruct]()
+5. [Standford Alpaca]()
+6. [SLiC-HF: Sequence Likelihood Calibration with Human Feedback]():replace RL techniques
 ## Other
 1. DeepLearning.AI ChatGPT Prompt Enginnering for Developers:
     - [note]()
