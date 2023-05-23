@@ -1,6 +1,14 @@
 # NLP-Papers
 This is a repository for organizing articles related to NLP. Most papers are linked to my reading notes. Feel free to contact me for discussion via Linkedin.
 
+markdown syntax shortcut:
+- highlighter:
+$`\textcolor{red}{\text{1}}`$ 
+$`\textcolor{blue}{\text{2}}`$ 
+$`\textcolor{green}{\text{3}}`$
+- shortcut:
+<a id='tag'></a> (#tag)
+
 # Table of Contents (ongoing)
 1. [large language model](#llm)
 2. [acceleration NLP model](#accelerate)
