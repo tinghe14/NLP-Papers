@@ -14,7 +14,7 @@ This is a repository for organizing articles related to NLP. Most papers are lin
 1. Blog in Chinese - [Introduction to ChatGPT/ChatGPT 基础科普：知其一点所以然](https://yam.gift/2023/04/15/NLP/2023-04-15-ChatGPT-Introduction/): introduce RNN to GPT series and share about RLHF
     - [note](https://github.com/tinghe14/NLP-Papers/blob/506df334b52d332b682b5bbf1c402119c8c57d3b/large%20language%20model/0%20note_ChatGPT%E5%9F%BA%E7%A1%80%E7%A7%91%E6%99%AE.md)
 2. Blog in Chinese- [ChatGPT 使用指南：相似匹配](https://github.com/datawhalechina/hugging-llm/blob/main/content/ChatGPT%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94%E7%9B%B8%E4%BC%BC%E5%8C%B9%E9%85%8D.ipynb):
-    - [note]()
+    - [note](ongoing)
 3. Paper - [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/pdf/2302.13971.pdf):open-sourced LLM for research community. The most benfit point to me is that I can now follow how researcher use LLaMA to fine tune specific task
     - [note](https://docs.google.com/presentation/d/1TLGVurmYcE_nqks2V1-i1n5Jnj2Z-AzZ6sQnqqiQ3gA/edit?usp=sharing)
 4. [Self-Instruct]()
@@ -71,8 +71,8 @@ This is a repository for organizing articles related to NLP. Most papers are lin
 # Transformer 
 <a id='transformer'></a>
 ## 2020
-1. Paper - [Pretrained transformers improve out-of-distribution robustness](https://arxiv.org/pdf/2004.06100.pdf)
-    - [note]()
+1. Paper - [Pretrained transformers improve out-of-distribution robustness](https://arxiv.org/pdf/2004.06100.pdf): cited by LMs are few-shot learner, but I think this is not a good paper to support their idea in GPT3. Whatever, the trick of turing classifier into anomaly detector to help to measure preformance of OOD generalization can help my work.
+    - [note](https://github.com/tinghe14/NLP-Papers/blob/7097997b581e089634c809e375b17c819bb0e6ee/large%20language%20model/3_pretrained_Transformer_improve_ood_robustness/note.md)
 ## 2017
 1. Paper - [Attention is all your need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf): Milestone of Transformer architecture
     - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
