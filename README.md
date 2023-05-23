@@ -23,7 +23,7 @@ This is a repository for organizing articles related to NLP. Most papers are lin
 7. [Stanford Webinar-GPT-3 & Beyond](https://www.youtube.com/results?search_query=stanford+webinar+-+gpt-3+%26+beyond)
 8. 8. Alignment instead of RL
 ## 2020
-1. Paper - [Lanugage Models are Few-shot Learners](https://arxiv.org/abs/2005.14165): 'the performance of fine-tuned models on specific benchmarks, even when it is nominally at human-level, may exaggerate actual performance on the underlying task'
+1. Paper - [Lanugage Models are Few-shot Learners](https://arxiv.org/abs/2005.14165): 'the performance of fine-tuned models on specific benchmarks, even when it is nominally at human-level, may exaggerate actual performance on the underlying task' <a id='lmsfewshortlearner'></a>
     - [note](https://github.com/tinghe14/NLP-Papers/blob/ba4b2784f280fbe784de215651e51592367e8bed/large%20language%20model/2_LM_few_shot_learners/2%20note.md)
 ## Other
 1. Cousera - DeepLearning.AI ChatGPT Prompt Enginnering for Developers:
@@ -71,7 +71,7 @@ This is a repository for organizing articles related to NLP. Most papers are lin
 # Transformer 
 <a id='transformer'></a>
 ## 2020
-1. Paper - [Pretrained transformers improve out-of-distribution robustness](https://arxiv.org/pdf/2004.06100.pdf): cited by LMs are few-shot learner, but I think this is not a good paper to support their idea in GPT3. Whatever, the trick of turing classifier into anomaly detector to help to measure preformance of OOD generalization can help my work.
+1. Paper - [Pretrained transformers improve out-of-distribution robustness](https://arxiv.org/pdf/2004.06100.pdf): cited by [LMs are few-shot learners](#lmsfewshortlearner), but I think this is not a good paper to support their idea in GPT3. Whatever, the trick of turing classifier into anomaly detector to help to measure preformance of OOD generalization can help my work.
     - [note](https://github.com/tinghe14/NLP-Papers/blob/7097997b581e089634c809e375b17c819bb0e6ee/large%20language%20model/3_pretrained_Transformer_improve_ood_robustness/note.md)
 ## 2017
 1. Paper - [Attention is all your need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf): Milestone of Transformer architecture
