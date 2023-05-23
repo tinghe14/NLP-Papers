@@ -62,6 +62,10 @@ $`\textcolor{green}{\text{3}}`$
     - [note-going]()
 8. Video in Chinese - [AI芯片-计算体系，芯片基础，gpu原理]https://space.bilibili.com/517221395/channel/series
 9. Video - [DeepSpeed: All the tricks to scale to gigantic models](https://www.youtube.com/watch?v=pDGI668pNg0)
+10. Documentation - [Pytorch Lightning](https://lightning.ai/docs/pytorch/stable/starter/introduction.html)
+    - [note]()
+12. Tutorial in Chinese - [Pytorch Lightning 完全攻略](https://zhuanlan.zhihu.com/p/353985363)
+    - [note]()
 <a id='accelerate'></a>
 <!--
 ## 2023
