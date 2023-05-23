@@ -45,6 +45,23 @@ $`\textcolor{green}{\text{3}}`$
 
 
 # Acceleration NLP Models
+## Other
+1. Video in Chinese - [AI框架-分布式并行及其策略](https://www.bilibili.com/video/BV1ge411L7mi/?spm_id_from=333.788&vd_source=8b4794944ae27d265c752edb598636de): introduce to distributed cluster, computer network and training large AI models https://space.bilibili.com/517221395/channel/collectiondetail?sid=936465
+    - [note-ongoing]()
+2. Video in Chinese - [AI编译器-传统编译器](https://space.bilibili.com/517221395/channel/collectiondetail?sid=857162) :introduce to traditional compiler vs AI compiler and optimized operator https://space.bilibili.com/517221395/channel/collectiondetail?sid=907218 https://space.bilibili.com/517221395/channel/collectiondetail?sid=960739 https://space.bilibili.com/517221395/channel/collectiondetail?sid=933181
+    - [note-ongoing]()
+3. Video in Chinese - [推理系统-整体概述]（https://space.bilibili.com/517221395/channel/collectiondetail?sid=997962）
+    - [note-ongoing]()
+4. Video in Chinese - [AI编译器-pytorch编译优化]（https://space.bilibili.com/517221395/channel/collectiondetail?sid=914908）
+    - [note-going]()
+5. Video in Chinese - [推理引擎-轻量网络]（https://space.bilibili.com/517221395/channel/collectiondetail?sid=1018326）
+    - [note-going]()
+6. Video in Chinese - [推理引擎-模型压缩]（https://space.bilibili.com/517221395/channel/collectiondetail?sid=1038745）
+    - [note-going]()
+7. Video in Chinese - [推理引擎-离线转换&优化]（https://space.bilibili.com/517221395/channel/collectiondetail?sid=1055386）
+    - [note-going]()
+8. Video in Chinese - [AI芯片-计算体系，芯片基础，gpu原理]https://space.bilibili.com/517221395/channel/series
+9. Video - [DeepSpeed: All the tricks to scale to gigantic models](https://www.youtube.com/watch?v=pDGI668pNg0)
 <a id='accelerate'></a>
 <!--
 ## 2023
