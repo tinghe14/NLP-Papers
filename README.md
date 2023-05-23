@@ -25,6 +25,8 @@ This is a repository for organizing articles related to NLP. Most papers are lin
 ## 2020
 1. Paper - [Lanugage Models are Few-shot Learners](https://arxiv.org/abs/2005.14165): 'the performance of fine-tuned models on specific benchmarks, even when it is nominally at human-level, may exaggerate actual performance on the underlying task'
     - [note](https://github.com/tinghe14/NLP-Papers/blob/ba4b2784f280fbe784de215651e51592367e8bed/large%20language%20model/2_LM_few_shot_learners/2%20note.md)
+2. Paper - [Pretrained transformers improve out-of-distribution robustness](https://arxiv.org/pdf/2004.06100.pdf)
+    - [note]()
 ## Others
 1. Video in Chinese - [GPT，GPT-2，GPT-3 论文精读【论文精读】](https://www.bilibili.com/video/BV1AF411b7xQ/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
 2. Video in Chinese - [InstructGPT 论文精读【论文精读·48】](https://www.bilibili.com/video/BV1hd4y187CR/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
