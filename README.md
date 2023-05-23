@@ -77,7 +77,7 @@ $`\textcolor{green}{\text{3}}`$
 # Transformer 
 <a id='transformer'></a>
 ## 2020
-1. Paper - [Pretrained transformers improve out-of-distribution robustness](https://arxiv.org/pdf/2004.06100.pdf): cited by [LMs are few-shot learners](#lmsfewshortlearner), but I think this is not a good paper to support their idea in GPT3. Whatever, the trick of turing classifier into anomaly detector to help to measure preformance of OOD generalization can help my work. $`\textcolor{how to calculate recall95? offline model or online inference can use? want to look at one paper about human alignment}{\text{1}}`$ 
+1. Paper - [Pretrained transformers improve out-of-distribution robustness](https://arxiv.org/pdf/2004.06100.pdf): cited by [LMs are few-shot learners](#lmsfewshortlearner), but I think this is not a good paper to support their idea in GPT3. Whatever, the trick of turing classifier into anomaly detector to help to measure preformance of OOD generalization can help my work. $`\textcolor{{how to calculate recall95? offline model or online inference can use? want to look at one paper about human alignment}{\text{1}}`$ 
     - [note](https://github.com/tinghe14/NLP-Papers/blob/4daf9f39aa31da7e1bcade58166c389912eef1c5/transformer/0_pretrain_transformers_improve_ood/note.md)
 ## 2019
 1. Paper - [Deep Anomaly Detection with Outlier Exposure](https://arxiv.org/pdf/1812.04606.pdf)
