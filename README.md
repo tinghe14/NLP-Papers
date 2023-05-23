@@ -4,7 +4,6 @@ This is a repository for organizing articles related to NLP. Most papers are lin
 # Table of Contents (ongoing)
 1. [large language model](#llm)
 2. [acceleration NLP model](#accelerate)
-3. [transformer - encoder part](#encoder)
 4. [transformer](#transformer)
 5. [embedding](#embedding)
 
@@ -25,7 +24,7 @@ This is a repository for organizing articles related to NLP. Most papers are lin
 8. 8. Alignment instead of RL
 -->
 ## 2020
-1. Paper - [Lanugage Models are Few-shot Learners](https://arxiv.org/abs/2005.14165): 'the performance of fine-tuned models on specific benchmarks, even when it is nominally at human-level, may exaggerate actual performance on the underlying task' <a id='lmsfewshortlearner'></a>
+1. Paper - [Lanugage Models are Few-shot Learners](https://arxiv.org/abs/2005.14165): the performance of fine-tuned models on specific benchmarks, even when it is nominally at human-level, may exaggerate actual performance on the underlying task <a id='lmsfewshortlearner'></a>
     - [note](https://github.com/tinghe14/NLP-Papers/blob/ba4b2784f280fbe784de215651e51592367e8bed/large%20language%20model/2_LM_few_shot_learners/2%20note.md)
 ## Other
 1. Cousera - DeepLearning.AI ChatGPT Prompt Enginnering for Developers:
@@ -67,17 +66,17 @@ This is a repository for organizing articles related to NLP. Most papers are lin
 10. GCP Documentation - [Cloud TPU性能指南]（https://cloud.google.com/tpu/docs/cloud-tpu-tools?hl=zh-cn）
 -->
 
-# Transformer - Encoder Part
-<a id='encoder'></a>
-## 2018
-1. Paper - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
-    - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
-
 # Transformer 
 <a id='transformer'></a>
 ## 2020
 1. Paper - [Pretrained transformers improve out-of-distribution robustness](https://arxiv.org/pdf/2004.06100.pdf): cited by [LMs are few-shot learners](#lmsfewshortlearner), but I think this is not a good paper to support their idea in GPT3. Whatever, the trick of turing classifier into anomaly detector to help to measure preformance of OOD generalization can help my work.
     - [note](https://github.com/tinghe14/NLP-Papers/blob/7097997b581e089634c809e375b17c819bb0e6ee/large%20language%20model/3_pretrained_Transformer_improve_ood_robustness/note.md)
+## 2019
+1. Paper - [Deep Anomaly Detection with Outlier Exposure](https://arxiv.org/pdf/1812.04606.pdf)
+    - [note](ongoing)
+## 2018
+1. Paper - [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding](https://arxiv.org/pdf/1810.04805.pdf)
+    - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
 ## 2017
 1. Paper - [Attention is all your need](https://proceedings.neurips.cc/paper/2017/file/3f5ee243547dee91fbd053c1c4a845aa-Paper.pdf): Milestone of Transformer architecture
     - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
