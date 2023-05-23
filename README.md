@@ -70,7 +70,7 @@ This is a repository for organizing articles related to NLP. Most papers are lin
 <a id='transformer'></a>
 ## 2020
 1. Paper - [Pretrained transformers improve out-of-distribution robustness](https://arxiv.org/pdf/2004.06100.pdf): cited by [LMs are few-shot learners](#lmsfewshortlearner), but I think this is not a good paper to support their idea in GPT3. Whatever, the trick of turing classifier into anomaly detector to help to measure preformance of OOD generalization can help my work.
-    - [note](https://github.com/tinghe14/NLP-Papers/blob/7097997b581e089634c809e375b17c819bb0e6ee/large%20language%20model/3_pretrained_Transformer_improve_ood_robustness/note.md)
+    - [note](https://github.com/tinghe14/NLP-Papers/blob/4daf9f39aa31da7e1bcade58166c389912eef1c5/transformer/0_pretrain_transformers_improve_ood/note.md)
 ## 2019
 1. Paper - [Deep Anomaly Detection with Outlier Exposure](https://arxiv.org/pdf/1812.04606.pdf)
     - [note - ongoing]()
