@@ -66,6 +66,8 @@ $`\textcolor{green}{\text{3}}`$
     - [note]()
 12. Tutorial in Chinese - [Pytorch Lightning 完全攻略](https://zhuanlan.zhihu.com/p/353985363)
     - [note]()
+13. Video in Chinese - [A great pytorch extension: pytorch-lightning lets you double your coding efficiency! ](https://www.youtube.com/watch?v=O7dNXpgdWbo)
+    - [note]()
 <a id='accelerate'></a>
 <!--
 ## 2023
