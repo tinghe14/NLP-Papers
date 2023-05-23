@@ -17,25 +17,29 @@ This is a repository for organizing articles related to NLP. Most papers are lin
     - [note](ongoing)
 3. Paper - [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/pdf/2302.13971.pdf):open-sourced LLM for research community. The most benfit point to me is that I can now follow how researcher use LLaMA to fine tune specific task
     - [note](https://docs.google.com/presentation/d/1TLGVurmYcE_nqks2V1-i1n5Jnj2Z-AzZ6sQnqqiQ3gA/edit?usp=sharing)
+<!--
 4. [Self-Instruct]()
 5. [Standford Alpaca]()
 6. [SLiC-HF: Sequence Likelihood Calibration with Human Feedback]():replace RL techniques
 7. [Stanford Webinar-GPT-3 & Beyond](https://www.youtube.com/results?search_query=stanford+webinar+-+gpt-3+%26+beyond)
 8. 8. Alignment instead of RL
+-->
 ## 2020
 1. Paper - [Lanugage Models are Few-shot Learners](https://arxiv.org/abs/2005.14165): 'the performance of fine-tuned models on specific benchmarks, even when it is nominally at human-level, may exaggerate actual performance on the underlying task' <a id='lmsfewshortlearner'></a>
     - [note](https://github.com/tinghe14/NLP-Papers/blob/ba4b2784f280fbe784de215651e51592367e8bed/large%20language%20model/2_LM_few_shot_learners/2%20note.md)
 ## Other
 1. Cousera - DeepLearning.AI ChatGPT Prompt Enginnering for Developers:
-    - [note]()
+    - [note](ongoing)
+<!--
 2. Video in Chinese - [GPT，GPT-2，GPT-3 论文精读【论文精读】](https://www.bilibili.com/video/BV1AF411b7xQ/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
 3. Video in Chinese - [InstructGPT 论文精读【论文精读·48】](https://www.bilibili.com/video/BV1hd4y187CR/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
 4. Video in Chinese- [GPT-4论文精读【论文精读·53】](https://www.bilibili.com/video/BV1vM4y1U7b5/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
-5. 
+-->
 
 
 # Acceleration NLP Models
 <a id='accelerate'></a>
+<!--
 ## 2023
 1. Blog in Chinese - [Google新作试图“复活”RNN：RNN能否再次辉煌？](https://spaces.ac.cn/archives/9554)
 2. Blog in Chinese - [Google新搜出的优化器Lion：效率与效果兼得的“训练狮”](https://spaces.ac.cn/archives/9473)
@@ -61,6 +65,7 @@ This is a repository for organizing articles related to NLP. Most papers are lin
     - 好像只支持huggingface和pytorch lighting 不知道是否支持pytorch https://www.deepspeed.ai/getting-started/
     - 好像很麻烦 配置一堆问题 小红书群里说的
 10. GCP Documentation - [Cloud TPU性能指南]（https://cloud.google.com/tpu/docs/cloud-tpu-tools?hl=zh-cn）
+-->
 
 # Transformer - Encoder Part
 <a id='encoder'></a>
@@ -84,7 +89,6 @@ This is a repository for organizing articles related to NLP. Most papers are lin
     - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
 2. Paper - [Evaluation methods for unsupervised word embedding](https://aclanthology.org/D15-1036/)
     - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
-
 ## 2014
 1. Paper - [GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/pubs/glove.pdf)
     - [note](https://medium.com/@hetinghelen/tasks-and-common-models-in-natural-language-processing-11c523d88f02)
