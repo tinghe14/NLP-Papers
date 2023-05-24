@@ -48,7 +48,31 @@ $`\textcolor{green}{\text{3}}`$
 ### 2020
 1. Paper - (ACL main)[Pretrained transformers improve out-of-distribution robustness](https://arxiv.org/pdf/2004.06100.pdf): cited by [LMs are few-shot learners](#lmsfewshortlearner), but I think this is not a good paper to support their idea in GPT3. Whatever, the trick of turing classifier into anomaly detector to help to measure preformance of OOD generalization can help my work. $`\textcolor{red}{\text{how to calculate recall95? offline model or online inference can use? want to look at one paper about human alignment?LIMA}}`$ 
     - [my note](https://github.com/tinghe14/NLP-Papers/blob/4daf9f39aa31da7e1bcade58166c389912eef1c5/transformer/0_pretrain_transformers_improve_ood/note.md)/[code](https://github.com/camelop/NLP-Robustness)
+2. Recall95 paper
+## Debiase Prediction
+### 2021
+1. Paper - (EMNLP)[Debiasing Methods in Natural Language Understanding Make Bias More Accessible](https://arxiv.org/pdf/2109.04095.pdf)
+    - [my note - ongoing]()/[code](https://github.com/technion-cs-nlp/bias-probing)
+### 2019
+1. Paper - (EMNLP)[Towards debiasing fact verification models](https://aclanthology.org/D19-1341.pdf): find why model overestimate and set unbiased test dataset to evaluate
+    - [my note - ongoing]()
+### 2018
+1. Paper - (NACCL)[Annotation Artifacts in Natural Language Inference Data](https://arxiv.org/pdf/1803.02324.pdf): mutual information between a word and the class can tey you whether the use of certain words is indicative of the inference class
+    - [my note - ongoing]()
 ## Data Augmentation
+### 2022 
+1. Paper - (NeurIPS Synthetic Data for ML Research)[Mitigating Health Poverty: Generative Approches versus Resampling for Time-series Clincial Data](https://arxiv.org/abs/2210.13958) SMOTE decrease data variablity and may introduce correlations between samples, giving rise to use of generative approaches based on GAN
+    - [my note - ongoing]()
+
+## Controlled Text Generation (这个有意思)
+### 2022
+1. Paper - (NeurIPS Synthetic Data for ML Research)[Systematic review of effect of data augmentation using paraphrasing on Named entity recognition](https://openreview.net/pdf?id=rc2h1h89aDi): where do they control? might be also can see the same paper in the workshop  (including T5, PEGASUS and GPT-Neo in other paper) Using GPT-3 for paraphrasing is not a new idea. Although the authors have compared two different GPT-3 variants, it is not clear if this prompt chosen is optimal. For example, prompt tuning can potentially address this issue https://aclanthology.org/2021.emnlp-main.243/
+    - [my note - ongoing]()
+
+## Prompt 
+1. Paper -(EMNLP)[The Power of Scale for Paramteter-Efficient Prompt Tuning](https://aclanthology.org/2021.emnlp-main.243.pdf): prompt design need human feedabck, this is not
+    - [my note - ongoing]() / [code](https://github.com/google-research/prompt-tuning)
+
 
 # Acceleration NLP Models
 ## Other
