@@ -59,6 +59,8 @@ $`\textcolor{green}{\text{3}}`$
 ### 2018
 1. Paper - (NACCL)[Annotation Artifacts in Natural Language Inference Data](https://arxiv.org/pdf/1803.02324.pdf): mutual information between a word and the class can tey you whether the use of certain words is indicative of the inference class
     - [my note - ongoing]()
+### Other
+1. Kaggle - [Error Analysis: Visualize BERT's attention](https://www.kaggle.com/code/thedevastator/error-analysis-visualize-bert-s-attention/notebook?scriptVersionId=103287636)
 ## Data Augmentation
 ### 2022 
 1. Paper - (NeurIPS Synthetic Data for ML Research)[Mitigating Health Poverty: Generative Approches versus Resampling for Time-series Clincial Data](https://arxiv.org/abs/2210.13958) SMOTE decrease data variablity and may introduce correlations between samples, giving rise to use of generative approaches based on GAN
