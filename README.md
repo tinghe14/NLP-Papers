@@ -83,6 +83,7 @@ $`\textcolor{green}{\text{3}}`$
 
 
 # Acceleration for NLP Models
+<a id='accelerate'></a>
 ## Other
 1. Video in Chinese - [AI框架-分布式并行及其策略](https://www.bilibili.com/video/BV1ge411L7mi/?spm_id_from=333.788&vd_source=8b4794944ae27d265c752edb598636de): introduce to distributed cluster, computer network and training large AI models https://space.bilibili.com/517221395/channel/collectiondetail?sid=936465
     - [note-ongoing]()
@@ -102,12 +103,12 @@ $`\textcolor{green}{\text{3}}`$
 9. Video - [DeepSpeed: All the tricks to scale to gigantic models](https://www.youtube.com/watch?v=pDGI668pNg0)
 10. Documentation - [Pytorch Lightning](https://lightning.ai/docs/pytorch/stable/starter/introduction.html)
     - [note]()
-12. Tutorial in Chinese - [Pytorch Lightning 完全攻略](https://zhuanlan.zhihu.com/p/353985363)
+11. Tutorial in Chinese - [Pytorch Lightning 完全攻略](https://zhuanlan.zhihu.com/p/353985363)
     - [note]()
-13. Video in Chinese - [A great pytorch extension: pytorch-lightning lets you double your coding efficiency! ](https://www.youtube.com/watch?v=O7dNXpgdWbo)
+12. Video in Chinese - [A great pytorch extension: pytorch-lightning lets you double your coding efficiency! ](https://www.youtube.com/watch?v=O7dNXpgdWbo)
     - [note]()
-<a id='accelerate'></a>
-<!--
+
+
 ## 2023
 1. Blog in Chinese - [Google新作试图“复活”RNN：RNN能否再次辉煌？](https://spaces.ac.cn/archives/9554)
 2. Blog in Chinese - [Google新搜出的优化器Lion：效率与效果兼得的“训练狮”](https://spaces.ac.cn/archives/9473)
