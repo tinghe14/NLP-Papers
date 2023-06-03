@@ -11,41 +11,47 @@ $`\textcolor{green}{\text{3}}`$
 
 # Table of Contents (ongoing)
 1. [large language model](#llm)
-2. [acceleration NLP model](#accelerate)
-4. [transformer](#transformer)
-5. [embedding](#embedding)
+2. [some finer topics which I am interested in](#finer)
+    - detect out-of-distribution
+    - debiase prediction
+    - data augmentation
+    - controlled text generation
+    - prompt engineering
+4. [acceleration for NLP model](#accelerate)
+    - more research idea
+    - more technical skill
+6. [transformer](#transformer)
+7. [embedding](#embedding)
 
 # Large Language Model
 <a id='llm'></a>
 ## 2023
 1. Paper - [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/pdf/2302.13971.pdf):open-sourced LLM for research community. The most benfit point to me is that I can now follow how researcher use LLaMA to fine tune specific task
     - [my note](https://docs.google.com/presentation/d/1TLGVurmYcE_nqks2V1-i1n5Jnj2Z-AzZ6sQnqqiQ3gA/edit?usp=sharing)
-<!--
-4. [Self-Instruct]()
-5. [Standford Alpaca]()
-6. [SLiC-HF: Sequence Likelihood Calibration with Human Feedback]():replace RL techniques
-7. [Stanford Webinar-GPT-3 & Beyond](https://www.youtube.com/results?search_query=stanford+webinar+-+gpt-3+%26+beyond)
-8. 8. Alignment instead of RL
--->
+2. [Self-Instruct]()
+3. [Standford Alpaca]()
+4. [SLiC-HF: Sequence Likelihood Calibration with Human Feedback]():replace RL techniques
+5. [Stanford Webinar-GPT-3 & Beyond](https://www.youtube.com/results?search_query=stanford+webinar+-+gpt-3+%26+beyond)
+6. Alignment instead of RL
 ## 2020
 1. Paper - [Lanugage Models are Few-shot Learners](https://arxiv.org/abs/2005.14165): the performance of fine-tuned models on specific benchmarks, even when it is nominally at human-level, may exaggerate actual performance on the underlying task <a id='lmsfewshortlearner'></a>
     - [my note](https://github.com/tinghe14/NLP-Papers/blob/ba4b2784f280fbe784de215651e51592367e8bed/large%20language%20model/2_LM_few_shot_learners/2%20note.md)
 ## Other
 1. Talk - DeepLearning.AI Building with Instruction-Tuned LLMs: A Step-by-Step Guide:
-    - [my note]()
-3. Cousera - DeepLearning.AI ChatGPT Prompt Enginnering for Developers:
+    - [my note](https://github.com/tinghe14/NLP-Papers/blob/793b9bc0a0d85d281376549d36306ba3507c093d/large%20language%20model/3_talk_instruction_tuned_llm/3_note.md)
+2. Cousera - DeepLearning.AI ChatGPT Prompt Enginnering for Developers:
     - [note-ongoing]()
-4. Blog in Chinese - [Introduction to ChatGPT/ChatGPT 基础科普：知其一点所以然](https://yam.gift/2023/04/15/NLP/2023-04-15-ChatGPT-Introduction/): introduce RNN to GPT series and share about RLHF
+3. Blog in Chinese - [Introduction to ChatGPT/ChatGPT 基础科普：知其一点所以然](https://yam.gift/2023/04/15/NLP/2023-04-15-ChatGPT-Introduction/): introduce RNN to GPT series and share about RLHF
     - [my note](https://github.com/tinghe14/NLP-Papers/blob/506df334b52d332b682b5bbf1c402119c8c57d3b/large%20language%20model/0%20note_ChatGPT%E5%9F%BA%E7%A1%80%E7%A7%91%E6%99%AE.md)
-5. Blog in Chinese- [ChatGPT 使用指南：相似匹配](https://github.com/datawhalechina/hugging-llm/blob/main/content/ChatGPT%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94%E7%9B%B8%E4%BC%BC%E5%8C%B9%E9%85%8D.ipynb):
+4. Blog in Chinese- [ChatGPT 使用指南：相似匹配](https://github.com/datawhalechina/hugging-llm/blob/main/content/ChatGPT%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97%E2%80%94%E2%80%94%E7%9B%B8%E4%BC%BC%E5%8C%B9%E9%85%8D.ipynb):
     - [my note - ongoing]()
-<!--
-2. Video in Chinese - [GPT，GPT-2，GPT-3 论文精读【论文精读】](https://www.bilibili.com/video/BV1AF411b7xQ/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
-3. Video in Chinese - [InstructGPT 论文精读【论文精读·48】](https://www.bilibili.com/video/BV1hd4y187CR/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
-4. Video in Chinese- [GPT-4论文精读【论文精读·53】](https://www.bilibili.com/video/BV1vM4y1U7b5/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
--->
+5. Video in Chinese - [GPT，GPT-2，GPT-3 论文精读【论文精读】](https://www.bilibili.com/video/BV1AF411b7xQ/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
+6. Video in Chinese - [InstructGPT 论文精读【论文精读·48】](https://www.bilibili.com/video/BV1hd4y187CR/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
+7. Video in Chinese- [GPT-4论文精读【论文精读·53】](https://www.bilibili.com/video/BV1vM4y1U7b5/?spm_id_from=333.999.0.0&vd_source=8b4794944ae27d265c752edb598636de)
+
 
 # Finer Topics
+<a id='finer'></a>
 ## Detect Out-of-Distribution
 ### 2020
 1. Paper - (ACL main)[Pretrained transformers improve out-of-distribution robustness](https://arxiv.org/pdf/2004.06100.pdf): cited by [LMs are few-shot learners](#lmsfewshortlearner), but I think this is not a good paper to support their idea in GPT3. Whatever, the trick of turing classifier into anomaly detector to help to measure preformance of OOD generalization can help my work. $`\textcolor{red}{\text{how to calculate recall95? offline model or online inference can use? want to look at one paper about human alignment?LIMA}}`$ 
@@ -67,18 +73,16 @@ $`\textcolor{green}{\text{3}}`$
 ### 2022 
 1. Paper - (NeurIPS Synthetic Data for ML Research)[Mitigating Health Poverty: Generative Approches versus Resampling for Time-series Clincial Data](https://arxiv.org/abs/2210.13958) SMOTE decrease data variablity and may introduce correlations between samples, giving rise to use of generative approaches based on GAN
     - [my note - ongoing]()
-
 ## Controlled Text Generation (这个有意思)
 ### 2022
 1. Paper - (NeurIPS Synthetic Data for ML Research)[Systematic review of effect of data augmentation using paraphrasing on Named entity recognition](https://openreview.net/pdf?id=rc2h1h89aDi): where do they control? might be also can see the same paper in the workshop  (including T5, PEGASUS and GPT-Neo in other paper) Using GPT-3 for paraphrasing is not a new idea. Although the authors have compared two different GPT-3 variants, it is not clear if this prompt chosen is optimal. For example, prompt tuning can potentially address this issue https://aclanthology.org/2021.emnlp-main.243/
     - [my note - ongoing]()
-
 ## Prompt 
 1. Paper -(EMNLP)[The Power of Scale for Paramteter-Efficient Prompt Tuning](https://aclanthology.org/2021.emnlp-main.243.pdf): prompt design need human feedabck, this is not
     - [my note - ongoing]() / [code](https://github.com/google-research/prompt-tuning)
 
 
-# Acceleration NLP Models
+# Acceleration for NLP Models
 ## Other
 1. Video in Chinese - [AI框架-分布式并行及其策略](https://www.bilibili.com/video/BV1ge411L7mi/?spm_id_from=333.788&vd_source=8b4794944ae27d265c752edb598636de): introduce to distributed cluster, computer network and training large AI models https://space.bilibili.com/517221395/channel/collectiondetail?sid=936465
     - [note-ongoing]()
@@ -128,8 +132,7 @@ $`\textcolor{green}{\text{3}}`$
     - https://blog.csdn.net/CheatEngine_jaz/article/details/124629041
     - 好像只支持huggingface和pytorch lighting 不知道是否支持pytorch https://www.deepspeed.ai/getting-started/
     - 好像很麻烦 配置一堆问题 小红书群里说的
-10. GCP Documentation - [Cloud TPU性能指南]（https://cloud.google.com/tpu/docs/cloud-tpu-tools?hl=zh-cn）
--->
+9. GCP Documentation - [Cloud TPU性能指南]（https://cloud.google.com/tpu/docs/cloud-tpu-tools?hl=zh-cn）
 
 # Transformer 
 <a id='transformer'></a>
