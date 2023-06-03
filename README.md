@@ -18,8 +18,8 @@ $`\textcolor{green}{\text{3}}`$
     - controlled text generation
     - prompt engineering
 4. [acceleration for NLP model](#accelerate)
-    - more research idea
-    - more technical skill
+    - research idea
+    - practical engineer skill
 6. [transformer](#transformer)
 7. [embedding](#embedding)
 
