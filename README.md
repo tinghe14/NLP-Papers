@@ -37,7 +37,8 @@ $`\textcolor{green}{\text{3}}`$
 1. Paper - [Lanugage Models are Few-shot Learners](https://arxiv.org/abs/2005.14165): the performance of fine-tuned models on specific benchmarks, even when it is nominally at human-level, may exaggerate actual performance on the underlying task <a id='lmsfewshortlearner'></a>
     - [my note](https://github.com/tinghe14/NLP-Papers/blob/ba4b2784f280fbe784de215651e51592367e8bed/large%20language%20model/2_LM_few_shot_learners/2%20note.md)
 ## Other
-1. Talk - DeepLearning.AI Building with Instruction-Tuned LLMs: A Step-by-Step Guide:
+1. lightGPT
+2. Talk - DeepLearning.AI Building with Instruction-Tuned LLMs: A Step-by-Step Guide:
     - [my note](https://github.com/tinghe14/NLP-Papers/blob/793b9bc0a0d85d281376549d36306ba3507c093d/large%20language%20model/3_talk_instruction_tuned_llm/3_note.md)
 2. Cousera - DeepLearning.AI ChatGPT Prompt Enginnering for Developers:
     - [note-ongoing]()
