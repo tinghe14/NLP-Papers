@@ -11,6 +11,7 @@ Instruction-Tunning vs 'Fine-Tuning':
   - Following instructions
   - new benchmarks: bias, toxicity, etc... 
 - fine-tuning: for specific task
+- instruct-tuning is a subset of fine-tuning, which focused on alignment with humans, concerned with following 'instructions' like human
 
 D1: Instruction-Tuning:
 [Dolly15k](https://huggingface.co/datasets/databricks/databricks-dolly-15k):
