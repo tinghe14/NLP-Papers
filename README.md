@@ -28,11 +28,12 @@ $`\textcolor{green}{\text{3}}`$
 ## 2023
 1. Paper - [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/pdf/2302.13971.pdf):open-sourced LLM for research community. The most benfit point to me is that I can now follow how researcher use LLaMA to fine tune specific task
     - [my note](https://docs.google.com/presentation/d/1TLGVurmYcE_nqks2V1-i1n5Jnj2Z-AzZ6sQnqqiQ3gA/edit?usp=sharing)
-2. [Self-Instruct]()
-3. [Standford Alpaca]()
-4. [SLiC-HF: Sequence Likelihood Calibration with Human Feedback]():replace RL techniques
-5. [Stanford Webinar-GPT-3 & Beyond](https://www.youtube.com/results?search_query=stanford+webinar+-+gpt-3+%26+beyond)
-6. Alignment instead of RL
+2. Paper - [Self-Instruct: Aligning Language Model with Self Generated Instructions](https://arxiv.org/abs/2212.10560): alpaca基于的是llama 7b的最小模型，采用self-instruct framwork，先是人工生成一些seed set 然后用gpt 3.5去生成更多的instruction 这样就可以完全unsupervised 之后再进一步减支 提升质量。整个训练过程只花了不到600刀，展现了大模型落地的可能
+    - [my note]()
+4. [Standford Alpaca]()
+5. [SLiC-HF: Sequence Likelihood Calibration with Human Feedback]():replace RL techniques
+6. [Stanford Webinar-GPT-3 & Beyond](https://www.youtube.com/results?search_query=stanford+webinar+-+gpt-3+%26+beyond)
+7. Alignment instead of RL
 ## 2020
 1. Paper - [Lanugage Models are Few-shot Learners](https://arxiv.org/abs/2005.14165): the performance of fine-tuned models on specific benchmarks, even when it is nominally at human-level, may exaggerate actual performance on the underlying task <a id='lmsfewshortlearner'></a>
     - [my note](https://github.com/tinghe14/NLP-Papers/blob/ba4b2784f280fbe784de215651e51592367e8bed/large%20language%20model/2_LM_few_shot_learners/2%20note.md)
