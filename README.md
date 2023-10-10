@@ -12,6 +12,7 @@ $`\textcolor{green}{\text{3}}`$
 # Table of Contents (ongoing)
 1. [large language model](#llm)
 2. [some finer topics which I am interested in](#finer)
+    - Medical Domain
     - detect out-of-distribution
     - debiase prediction
     - data augmentation
@@ -55,6 +56,10 @@ $`\textcolor{green}{\text{3}}`$
 
 # Finer Topics
 <a id='finer'></a>
+## Medical Domain
+### 2023
+1. Paper - (ACL CNLP workshop)[Improving the Transferability of Clinical Note Section Classification
+Models with BERT and Large Language Model Ensembles](https://aclanthology.org/2023.clinicalnlp-1.16.pdf): t zero-shot LLMs out-perform supervised BERT-based models applied to out-of-domain data.
 ## Detect Out-of-Distribution
 ### 2020
 1. Paper - (ACL main)[Pretrained transformers improve out-of-distribution robustness](https://arxiv.org/pdf/2004.06100.pdf): cited by [LMs are few-shot learners](#lmsfewshortlearner), but I think this is not a good paper to support their idea in GPT3. Whatever, the trick of turning classifier into anomaly detector to measure preformance of OOD generalization is interesting.
