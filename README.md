@@ -12,7 +12,7 @@ $`\textcolor{green}{\text{3}}`$
 # Table of Contents (ongoing)
 1. [large language model](#llm)
 2. [some finer topics which I am interested in](#finer)
-    - Medical Domain
+    - medical domain
     - detect out-of-distribution
     - debiase prediction
     - data augmentation
@@ -36,6 +36,7 @@ $`\textcolor{green}{\text{3}}`$
 6. [Stanford Webinar-GPT-3 & Beyond](https://www.youtube.com/results?search_query=stanford+webinar+-+gpt-3+%26+beyond)
 7. Alignment instead of RL
 8. LIMA
+9. LMDX: language model-based document information extraction and localitzation
 ## 2020
 1. Paper - [Lanugage Models are Few-shot Learners](https://arxiv.org/abs/2005.14165): the performance of fine-tuned models on specific benchmarks, even when it is nominally at human-level, may exaggerate actual performance on the underlying task <a id='lmsfewshortlearner'></a>
     - [my note](https://github.com/tinghe14/NLP-Papers/blob/ba4b2784f280fbe784de215651e51592367e8bed/large%20language%20model/2_LM_few_shot_learners/2%20note.md)
