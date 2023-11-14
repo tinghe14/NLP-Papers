@@ -34,3 +34,5 @@ https://www.bilibili.com/video/BV1ge411L7mi/?spm_id_from=333.788&vd_source=8b479
 总结：
 1. 大规模分布式训练中主要使用参数服务器架构模式（ps），参数服务器分布在多个gpu是ps模式的一种特殊形态
 2. ps架构通过集合通信来实现环同步，从而同步分布在多个gpu中的参数，ring all reduce是环同步的经典同步方式
+
+接下来看03
