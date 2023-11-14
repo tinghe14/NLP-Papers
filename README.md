@@ -99,7 +99,7 @@ Models with BERT and Large Language Model Ensembles](https://aclanthology.org/20
 1. Paper - [A Survey on Model Compression and Acceleration for Pretrained Language Models]
 ## Blogs
 1. Video in Chinese - [parallelism](https://www.bilibili.com/video/BV1ge411L7mi/?spm_id_from=333.788&vd_source=8b4794944ae27d265c752edb598636de): introduce to distributed cluster, computer network and training large AI models https://space.bilibili.com/517221395/channel/collectiondetail?sid=936465
-    - [note-ongoing]()
+    - [my note]()
 2. Video in Chinese - [AI compiler](https://space.bilibili.com/517221395/channel/collectiondetail?sid=857162) :introduce to traditional compiler vs AI compiler and optimized operator https://space.bilibili.com/517221395/channel/collectiondetail?sid=907218 https://space.bilibili.com/517221395/channel/collectiondetail?sid=960739 https://space.bilibili.com/517221395/channel/collectiondetail?sid=933181
     - [note-ongoing]()
 3. Video in Chinese - [Intro to Inference Engine]（https://space.bilibili.com/517221395/channel/collectiondetail?sid=997962）
