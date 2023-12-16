@@ -27,7 +27,7 @@ $`\textcolor{green}{\text{3}}`$
 # Large Language Model
 <a id='llm'></a>
 ## 2023
-1. Paper - [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/pdf/2302.13971.pdf):open-sourced LLM for research community. The most benfit point to me is that I can now follow how researcher use LLaMA to fine tune specific task
+1. Paper - [LLaMA: Open and Efficient Foundation Language Models](https://arxiv.org/pdf/2302.13971.pdf):open-sourced LLM for research community. 
     - [my note](https://docs.google.com/presentation/d/1TLGVurmYcE_nqks2V1-i1n5Jnj2Z-AzZ6sQnqqiQ3gA/edit?usp=sharing)
 2. Paper - [Self-Instruct: Aligning Language Model with Self Generated Instructions](https://arxiv.org/abs/2212.10560): <!-- alpaca基于的是llama 7b的最小模型，采用self-instruct framwork，先是人工生成一些seed set 然后用gpt 3.5去生成更多的instruction 这样就可以完全unsupervised 之后再进一步减支 提升质量。整个训练过程只花了不到600刀，展现了大模型落地的可能 -->
     - [my note]()
